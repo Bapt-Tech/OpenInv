@@ -1,10 +1,10 @@
 -- init.lua
-minetest.register_privilege("openinv", {
+minetest.register_privilege("openinv", "openec" {
     description = "Allows player to open other players' inventories.",
     give_to_singleplayer = false,
 })
 
-minetest.register_privilege("openec", {
+minetest.register_privilege("openec", "openinv" {
     description = "Allows player to open other players' Ender Chests.",
     give_to_singleplayer = false,
 })
